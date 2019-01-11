@@ -1,0 +1,11 @@
+2019/01/11-02:53:59.176 c04 Recovering log #63
+2019/01/11-02:53:59.176 c04 Level-0 table #66: started
+2019/01/11-02:53:59.178 c04 Level-0 table #66: 8851 bytes OK
+2019/01/11-02:53:59.181 c04 Delete type=0 #63
+2019/01/11-02:53:59.181 c04 Delete type=3 #61
+2019/01/11-02:53:59.726 f4c Compacting 1@0 + 1@1 files
+2019/01/11-02:53:59.754 f4c Generated table #68@0: 6699 keys, 2043386 bytes
+2019/01/11-02:53:59.754 f4c Compacted 1@0 + 1@1 files => 2043386 bytes
+2019/01/11-02:53:59.754 f4c compacted to: files[ 0 1 0 0 0 0 0 ]
+2019/01/11-02:53:59.754 f4c Delete type=2 #64
+2019/01/11-02:53:59.755 f4c Delete type=2 #66

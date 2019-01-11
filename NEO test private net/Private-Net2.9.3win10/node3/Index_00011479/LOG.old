@@ -1,0 +1,9 @@
+2019/01/11-02:54:00.039 dc8 Recovering log #51
+2019/01/11-02:54:00.039 dc8 Level-0 table #53: started
+2019/01/11-02:54:00.042 dc8 Level-0 table #53: 812 bytes OK
+2019/01/11-02:54:00.057 dc8 Delete type=0 #51
+2019/01/11-02:54:00.057 dc8 Delete type=3 #49
+2019/01/11-02:54:00.057 63c Compacting 4@0 + 1@1 files
+2019/01/11-02:54:00.061 63c Generated table #55@0: 13 keys, 940 bytes
+2019/01/11-02:54:00.061 63c Compacted 4@0 + 1@1 files => 940 bytes
+2019/01/11-02:54:00.061 63c compacted to: files[ 0 1 0 0 0 0 0 ]

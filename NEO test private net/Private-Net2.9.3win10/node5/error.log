@@ -1,0 +1,8 @@
+System.TypeLoadException
+Method 'Configure' in type 'Neo.Plugins.LogReader' from assembly 'ApplicationLogs, Version=2.9.0.0, Culture=neutral, PublicKeyToken=null' does not have an implementation.
+   at System.Reflection.RuntimeAssembly.GetExportedTypes(RuntimeAssembly assembly, ObjectHandleOnStack retTypes)
+   at System.Reflection.RuntimeAssembly.GetExportedTypes()
+   at Neo.Plugins.Plugin.LoadPlugins(NeoSystem system)
+   at Neo.Shell.MainService.OnStart(String[] args)
+   at Neo.Services.ConsoleServiceBase.Run(String[] args)
+   at Neo.Program.Main(String[] args)

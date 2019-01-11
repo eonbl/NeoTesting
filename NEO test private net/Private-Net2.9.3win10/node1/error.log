@@ -1,0 +1,20 @@
+System.TypeInitializationException
+The type initializer for 'Neo.Settings' threw an exception.
+   at Neo.Shell.MainService.OnStart(String[] args)
+   at Neo.Services.ConsoleServiceBase.Run(String[] args)
+   at Neo.Program.Main(String[] args)
+
+System.TypeInitializationException
+The type initializer for 'Neo.Network.P2P.Message' threw an exception.
+   at Neo.PathsSettings..ctor(IConfigurationSection section)
+   at Neo.Settings..ctor(IConfigurationSection section)
+   at Neo.Settings..cctor()
+
+System.TypeInitializationException
+The type initializer for 'Neo.ProtocolSettings' threw an exception.
+   at Neo.ProtocolSettings.get_Default()
+   at Neo.Network.P2P.Message..cctor()
+
+System.IO.FileLoadException
+Could not load file or assembly 'Microsoft.Extensions.Configuration.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+   at Neo.ProtocolSettings..cctor()

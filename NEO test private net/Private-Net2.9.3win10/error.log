@@ -1,0 +1,8 @@
+System.Runtime.InteropServices.SEHException
+External component has thrown an exception.
+   at Neo.IO.Data.LevelDB.Native.leveldb_open(IntPtr options, String name, IntPtr& error)
+   at Neo.IO.Data.LevelDB.DB.Open(String name, Options options)
+   at Neo.Persistence.LevelDB.LevelDBStore..ctor(String path)
+   at Neo.Shell.MainService.OnStart(String[] args)
+   at Neo.Services.ConsoleServiceBase.Run(String[] args)
+   at Neo.Program.Main(String[] args)

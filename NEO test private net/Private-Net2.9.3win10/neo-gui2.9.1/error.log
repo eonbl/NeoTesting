@@ -1,0 +1,14 @@
+System.TypeInitializationException
+The type initializer for 'Neo.Properties.Settings' threw an exception.
+   at Neo.Properties.Settings.get_Default()
+   at Neo.Program.InstallCertificate() in C:\Users\Spirit\source\repos\neo-gui2.9.1\neo-gui\Program.cs:line 40
+   at Neo.Program.Main() in C:\Users\Spirit\source\repos\neo-gui2.9.1\neo-gui\Program.cs:line 105
+
+System.ArgumentNullException
+Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at Neo.Properties.PathsSettings..ctor(IConfigurationSection section) in C:\Users\Spirit\source\repos\neo-gui2.9.1\neo-gui\Properties\Settings.cs:line 39
+   at Neo.Properties.Settings..ctor() in C:\Users\Spirit\source\repos\neo-gui2.9.1\neo-gui\Properties\Settings.cs:line 23
+   at Neo.Properties.Settings..cctor() in C:\Users\Spirit\source\repos\neo-gui2.9.1\neo-gui\Properties\Settings.Designer.cs:line 18

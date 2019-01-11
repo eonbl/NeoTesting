@@ -1,0 +1,11 @@
+2019/01/11-03:00:08.211 eb4 Recovering log #63
+2019/01/11-03:00:08.211 eb4 Level-0 table #66: started
+2019/01/11-03:00:08.212 eb4 Level-0 table #66: 5954 bytes OK
+2019/01/11-03:00:08.219 eb4 Delete type=0 #63
+2019/01/11-03:00:08.219 eb4 Delete type=3 #61
+2019/01/11-03:00:08.741 15dc Compacting 1@0 + 1@1 files
+2019/01/11-03:00:08.761 15dc Generated table #68@0: 6715 keys, 2047881 bytes
+2019/01/11-03:00:08.761 15dc Compacted 1@0 + 1@1 files => 2047881 bytes
+2019/01/11-03:00:08.761 15dc compacted to: files[ 0 1 0 0 0 0 0 ]
+2019/01/11-03:00:08.761 15dc Delete type=2 #64
+2019/01/11-03:00:08.762 15dc Delete type=2 #66

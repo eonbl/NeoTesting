@@ -1,0 +1,18 @@
+﻿{
+  "ApplicationConfiguration": {
+    "Paths": {
+      "Chain": "Chain_{0}",
+      "Index": "Index_{0}",
+      "CertCache": "Certs"
+    },
+    "P2P": {
+      "Port": 50333,
+      "WsPort": 50334
+    },
+    "Urls": {
+      "AddressUrl": "http://47.90.189.186:4000/address/{0}",
+      "AssetUrl": "http://47.90.189.186:4000/api/main_net/v1/get_asset/{0}",
+      "TransactionUrl": "http://47.90.189.186:4000/transaction/{0}"
+    }
+  }
+}
