@@ -5,11 +5,11 @@ How to do a transaction on the private net:
 Keep a notepad open for ease of copy-pasting addresses, public keys, and signatures when necessary.
 
 1. Open neo-gui2.9.1\neo-gui.exe
-2. To a wallet, click Wallet --> Open Wallet Database...
-You will notice that I've pre-prepared wallet 1.json with 100M NEO and 320 GAS.
+2. To open a wallet, click Wallet --> Open Wallet Database...
+You will notice that I've pre-prepared wallet 1.json with 100M NEO (the maximum) and around 11k GAS.
 3. To start a transaction, click Transaction --> Transfer...
 4. Add your recipient's address. Click OK.
-If this is your second time doing a transaction, the transaction should successfully complete, and you can stop here. If not, continue.
+If this is your first time executing a transaction, you may have to do the following steps as well:
 5. A prompt will appear saying the transaction requires more signatures. Copy this signature.
 6. Open another node's wallet. E.g., if you started with 1.json, open 2.json.
 7. Click Transaction --> Signature...
@@ -27,5 +27,6 @@ Notes:
 3. If there is no contract address, you must create one by clicking on the empty space in the window --> Create Contract Add. --> Multi-Signature... Add the 4 nodes' public keys to the list, and enter "3" for the Min. Sig. Num.
 4. The wallets' passwords are all "11111111" (eight 1's).
 5. The blocktime is 15 seconds. Thus, you must wait 15 seconds for your transaction to be approved by the consensus nodes and get executed.
+6. 1000 GAS is required for submitting one's candidacy for election.
 
 -- This README was written by Bryan Owens

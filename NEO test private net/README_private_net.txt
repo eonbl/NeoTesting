@@ -2,12 +2,11 @@ How to create a private net:
 
 (You must first install .NET Framework, probably .NET Framework v4.7)
 
-1. Extract Private-Net2.9.3win10.zip.
-2. Open neo-gui2.9.1\protocol.json.
+1. Open neo-gui2.9.1\protocol.json.
 Set the IP addresses in "SeedList" to equal the IP address of your computer (or your VM, if using a VM).
 The IP addresses should be the same (e.g., all 172.16.8.131). Do not use "localhost".
 Do not modify the ports.
-3. Run Run.cmd
+2. Run Run.cmd
 You should see 4 cmd windows pop up. There should be no errors. Whenever a new block is added to the blockchain, a line will appear saying "persist block: 0x..."
 You can check the network status by typing "show state".
 You can open the gui by opening neo-gui2.9.1\neo-gui.exe

@@ -11,7 +11,7 @@ version. Then the script re-builds neo-cli and launches the private network.
 
 Download this repo as a ZIP file, and extract it on your machine.
 
-Follow the first three steps in `NEO test private net\README_private_net` to set up the private network.
+Follow the first two steps in `NEO test private net\README_private_net` to set up the private network.
 
 In Visual Studio, build the `neo` project with the edits you have made.
 
@@ -23,6 +23,6 @@ Once you finish these steps, to test any changes to `neo` you just have to build
 script.
 
 ## Information about the private net
-Read `NEO test private net\README_private_net` and `NEO test private net\README_transactions` for more information.
+Read `NEO test private net\README_private_net` and the other `README` files in `NEO test private net` for more information.
 
 Author: Ben Owens
